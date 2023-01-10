@@ -5,8 +5,8 @@ import Hello from '../Hello'
 function Header(props) {
     const [name, setName] = useState("Minh");
     return (
-        <div>
-            <Hello name={name} />
+        <div style={{ textAlign: 'center' }}>
+            Header
         </div>
     )
 }
