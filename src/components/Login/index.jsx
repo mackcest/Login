@@ -5,19 +5,21 @@ import { useNavigate } from "react-router-dom";
 
 const Login = (props) => {
     const navigate = useNavigate();
-    const [userName, setUserName] = useState("");
+    const [userName, setUserName] = useState('');
     const [passWord, setPassWord] = useState('');
 
     const Login = () => {
         if (userName === "Dung" && passWord === "123") {
             return navigate("home");
         } else {
-            return navigate("header");
+            return navigate("");
         }
     }
+
     function changeInputValueUserName(value) {
         setUserName(value);
     }
+
     function changeInputValuePassWord(value) {
         setPassWord(value);
     }

@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
-import Hello from '../Hello'
+// import Hello from '../Hello'
 
 function Header(props) {
-    const [name, setName] = useState("Minh");
+    console.log(props);
+    // const [name, setName] = useState("Minh");
     return (
-        <div style={{ textAlign: 'center' }}>
-            Header
+        <div style={{ textAlign: 'center', background: "green" }}>
+            <p>This is component Header</p>
+            {props.children}
         </div>
     )
 }
