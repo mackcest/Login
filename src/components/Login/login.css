@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.c-login {
+    height: 100vh;
+    background: #f0f2f5;
+}
+
+.c-login .wrapper-login {
+    padding-bottom: 132px;
+    padding-top: 92px;
+}
+
+.c-login .left-screen {
+    padding-right: 48px;
+    padding-top: 48px;
+}
+
+.c-login .fb_logo {
+    height: 106px;
+    margin: -28px;
+}
+
+.c-login .right-screen {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+.c-login .right-screen {
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 396px;
+}
+
+@media only screen and (max-width: 768px) and (max-width: 567px) {
+    .c-login {
+        height: 100vh;
+        background-color: lightblue;
+    }
+}
