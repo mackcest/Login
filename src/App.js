@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Header from './components/Header';
 import MainConcept from './components/Main';
 import Parent from './components/Context/Parent';
+import Test from './components/Sidebar/Test';
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Route path="/header" element={<Header />} />
         <Route path="/main" element={<MainConcept />} />
         <Route path="/child" element={<Parent />} />
+        <Route path="/test" element={<Test />} />
       </Routes>
     );
   }
